@@ -1,22 +1,27 @@
 import telebot
+from telebot import types
 
+import parserLenta
+from config import bot_token
 
-from config import token
+bot = telebot.TeleBot(bot_token)
 
-bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start', 'help'])
-def send_welcome(message):
-    bot.reply_to(message, f'Я бот. Приятно познакомиться, {message.from_user.first_name}')
+def start_command(message):
+    markup = types.InlineKeyboardMarkup()
+    btn_my_site = types.InlineKeyboardButton(text='Проект на GitHub',
+                                             url='https://github.com/keshe4ka/Telegram_bot_discounts_for_RedBull')
+    markup.add(btn_my_site)
+    bot.send_message(message.chat.id,
+                     "Привет, я показываю скидки на энергетики в твоем городе, по кнопке ниже ты можешь перейти на гитхаб этого проекта и внести свой вклад в развитие бота",
+                     reply_markup=markup)
 
-@bot.message_handler(content_types=['text'])
-def get_text_messages(message):
-    if message.text.lower() == 'привет':
-        bot.send_message(message.from_user.id, 'Привет!')
-    else:
-        bot.send_message(message.from_user.id, 'Не понимаю, что это значит.')
+
+@bot.message_handler(commands=['show'])
+def start_command(message):
+    bot.send_message(message.chat.id, parserLenta.lenta_info)
 
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
-
