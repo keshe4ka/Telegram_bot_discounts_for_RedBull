@@ -7,9 +7,10 @@ session = HTMLSession()
 response = session.get(shop_bristol_url)
 soup = BeautifulSoup(response.content, 'html.parser')
 
-title = re.sub(" +", " ", soup.find('h1').string)
-#price1 = re.sub('\D', '', soup.find('span', class_='new').string)
-#price2 = re.sub('\D', '', soup.find('small', class_='kopeck').string)
+# title = re.sub(" +", " ", soup.find('h1').string)
 
-#btistol_info = "\nБРИСТОЛЬ:" + title + "Цена: " + price1.replace(' ', '') + "." + price2.replace(' ', '') + "р."
-btistol_info = "\nБРИСТОЛЬ:\n" + title
+price = re.sub('\D', '', soup.find('span', class_='new').text)
+price2 = price[-2:]
+price1 = price[:-2]
+
+btistol_info = "\nБРИСТОЛЬ: " + price1 + "." + price2 + "р."
