@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d245ec35-b5ab-4878-96f9-a063ff87f68d" name="Default Changelist" comment="Добавлен парсер большого редбулла в ленте">
-      <change afterPath="$PROJECT_DIR$/parserBristol.py" afterDir="false" />
+    <list default="true" id="d245ec35-b5ab-4878-96f9-a063ff87f68d" name="Default Changelist" comment="Цены бристоля работают, нужно отслеживать отображение цены при отсутсвии скидки (и соответствующих div`ов). Убраны title за ненадбностью.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parserBristol.py" beforeDir="false" afterPath="$PROJECT_DIR$/parserBristol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parserLenta.py" beforeDir="false" afterPath="$PROJECT_DIR$/parserLenta.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624579191484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Нужно разобраться с парсингом цен бристоля (и учесть что без скидки другие div`ы)">
+      <created>1624580547652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624580547652</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Цены бристоля работают, нужно отслеживать отображение цены при отсутсвии скидки (и соответствующих div`ов). Убраны title за ненадбностью.">
+      <created>1628521322900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628521322900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +113,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил хранение паролей в .env" />
     <MESSAGE value="Добавлен парсер большого редбулла в ленте" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен парсер большого редбулла в ленте" />
+    <MESSAGE value="Нужно разобраться с парсингом цен бристоля (и учесть что без скидки другие div`ы)" />
+    <MESSAGE value="Цены бристоля работают, нужно отслеживать отображение цены при отсутсвии скидки (и соответствующих div`ов). Убраны title за ненадбностью." />
+    <option name="LAST_COMMIT_MESSAGE" value="Цены бристоля работают, нужно отслеживать отображение цены при отсутсвии скидки (и соответствующих div`ов). Убраны title за ненадбностью." />
   </component>
 </project>
