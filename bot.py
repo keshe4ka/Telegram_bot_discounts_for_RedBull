@@ -3,6 +3,7 @@ from telebot import types
 
 import parserBristol
 import parserLenta
+import parser5ka
 from config import bot_token
 
 bot = telebot.TeleBot(bot_token)
@@ -21,7 +22,7 @@ def start_command(message):
 
 @bot.message_handler(commands=['show'])
 def start_command(message):
-    bot.send_message(message.chat.id, parserLenta.lenta_info + parserBristol.btistol_info)
+    bot.send_message(message.chat.id, parserLenta.info + parserBristol.info)
 
 
 if __name__ == '__main__':

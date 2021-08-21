@@ -12,4 +12,4 @@ prices = soup.find('div',
                    class_='price-label price-label--primary sku-price sku-price--primary sku-prices-block__price')
 price1 = re.sub('\D', '', prices.find('span', class_='price-label__integer').string)
 price2 = re.sub('\D', '', prices.find('small', class_='price-label__fraction').string)
-lenta_info = "ЛЕНТА: " + price1.replace(' ', '') + "." + price2.replace(' ', '') + "р."
+info = "ЛЕНТА: " + price1.replace(' ', '') + "." + price2.replace(' ', '') + "р."

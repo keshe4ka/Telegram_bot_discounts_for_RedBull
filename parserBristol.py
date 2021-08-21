@@ -13,4 +13,4 @@ price = re.sub('\D', '', soup.find('span', class_='new').text)
 price2 = price[-2:]
 price1 = price[:-2]
 
-btistol_info = "\nБРИСТОЛЬ: " + price1 + "." + price2 + "р."
+info = "\nБРИСТОЛЬ: " + price1 + "." + price2 + "р."
