@@ -9,3 +9,6 @@ bot_token = os.environ.get("BOT_TOKEN")
 shop_lenta_url = 'https://lenta.com/product/napitok-bezalkogolnyjj-red-bull-big-can-bolshaya-banka-toniz-energet-gaz-zhb-shvejjcariya-0473l-148381/'
 shop_bristol_url = 'https://bristol.ru/catalog/produkty/red_bull_0_473l/'
 shop_5ka_url = 'https://edadeal.ru/arhangelsk/retailers/5ka?brand=edde830c-9b8f-5bea-a477-adc00c912bc5'
+shop_magnit_url = ''
+shop_KB_url = ''
+shop_metro_url = 'https://arh.metro-cc.ru/search?q=red%20bull'
