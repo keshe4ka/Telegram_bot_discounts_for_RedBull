@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d245ec35-b5ab-4878-96f9-a063ff87f68d" name="Default Changelist" comment="Сделана задержка страницы, едадил успешно запарсился. Нужно разобраться с банками разного объема и выдавать информацию о том, на какую банку скидка (средняя или большая, маленькие не отслеживаем) и в случае, если скидок нет, сообщить об этом.">
-      <change afterPath="$PROJECT_DIR$/parser5ka.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser5ka_WITHOUT_SELENIUM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parserBristol.py" beforeDir="false" afterPath="$PROJECT_DIR$/parserBristol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parserLenta.py" beforeDir="false" afterPath="$PROJECT_DIR$/parserLenta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser5ka.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser5ka.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629556982735</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Сделана задержка страницы, едадил успешно запарсился. Нужно разобраться с банками разного объема и выдавать информацию о том, на какую банку скидка (средняя или большая, маленькие не отслеживаем) и в случае, если скидок нет, сообщить об этом.">
+      <created>1629557037787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629557037787</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -22,7 +22,7 @@ def start_command(message):
 
 @bot.message_handler(commands=['show'])
 def start_command(message):
-    bot.send_message(message.chat.id, parserLenta.info + parserBristol.info)
+    bot.send_message(message.chat.id, parserLenta.info + parserBristol.info + parser5ka.info)
 
 
 if __name__ == '__main__':
