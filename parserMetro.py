@@ -19,6 +19,5 @@ browser.quit()
 
 soup = BeautifulSoup(generatedHTML, 'html.parser')
 
-print(soup.find('div', class_='price-card__price'))
 price = re.sub('\D', '', soup.find('div', class_='price-card__price').text)
 info = "\nМЕТРО: " + price + ".00р."
