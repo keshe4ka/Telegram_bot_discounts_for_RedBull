@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d245ec35-b5ab-4878-96f9-a063ff87f68d" name="Default Changelist" comment="Сделана задержка страницы, едадил успешно запарсился. Нужно разобраться с банками разного объема и выдавать информацию о том, на какую банку скидка (средняя или большая, маленькие не отслеживаем) и в случае, если скидок нет, сообщить об этом.">
-      <change afterPath="$PROJECT_DIR$/parser5ka_WITH_SELENIUM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parserKB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parserMagnit.py" afterDir="false" />
+    <list default="true" id="d245ec35-b5ab-4878-96f9-a063ff87f68d" name="Default Changelist" comment="Легкая полировка и добавление парсеров КБ и Магнита (магнит ждем пока что, на едадиле инфы нет).">
+      <change afterPath="$PROJECT_DIR$/parserMetro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser5ka.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser5ka.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser5ka_WITHOUT_SELENIUM.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629557037787</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Убрали селениум, в едадиле пропали скидки на редбулл...">
+      <created>1630097517169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630097517169</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Легкая полировка и добавление парсеров КБ и Магнита (магнит ждем пока что, на едадиле инфы нет).">
+      <created>1630097760353</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1630097760353</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +157,8 @@
     <MESSAGE value="Нужно разобраться с парсингом цен бристоля (и учесть что без скидки другие div`ы)" />
     <MESSAGE value="Цены бристоля работают, нужно отслеживать отображение цены при отсутсвии скидки (и соответствующих div`ов). Убраны title за ненадбностью." />
     <MESSAGE value="Сделана задержка страницы, едадил успешно запарсился. Нужно разобраться с банками разного объема и выдавать информацию о том, на какую банку скидка (средняя или большая, маленькие не отслеживаем) и в случае, если скидок нет, сообщить об этом." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделана задержка страницы, едадил успешно запарсился. Нужно разобраться с банками разного объема и выдавать информацию о том, на какую банку скидка (средняя или большая, маленькие не отслеживаем) и в случае, если скидок нет, сообщить об этом." />
+    <MESSAGE value="Убрали селениум, в едадиле пропали скидки на редбулл..." />
+    <MESSAGE value="Легкая полировка и добавление парсеров КБ и Магнита (магнит ждем пока что, на едадиле инфы нет)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Легкая полировка и добавление парсеров КБ и Магнита (магнит ждем пока что, на едадиле инфы нет)." />
   </component>
 </project>
