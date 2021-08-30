@@ -10,5 +10,4 @@ shop_lenta_url = 'https://lenta.com/product/napitok-bezalkogolnyjj-red-bull-big-
 shop_bristol_url = 'https://bristol.ru/catalog/produkty/red_bull_0_473l/'
 shop_5ka_url = 'https://edadeal.ru/arhangelsk/retailers/5ka?brand=edde830c-9b8f-5bea-a477-adc00c912bc5'
 shop_magnit_url = 'https://edadeal.ru/arhangelsk/retailers/magnit-univer?brand=edde830c-9b8f-5bea-a477-adc00c912bc5'
-# shop_KB_url = ''
 shop_metro_url = 'https://arh.metro-cc.ru/category/bezalkogolnye-napitki/energetiki/red-bull-0473-l'

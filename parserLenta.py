@@ -1,13 +1,10 @@
 import re
-from requests_html import HTMLSession
-from bs4 import BeautifulSoup
+
 from config import shop_lenta_url
+from parser import parse
 
-session = HTMLSession()
-response = session.get(shop_lenta_url)
-soup = BeautifulSoup(response.content, 'html.parser')
+soup = parse(shop_lenta_url, 0)
 
-# title = re.sub(" +", " ", soup.find('h1', class_='sku-page__title').string)
 prices = soup.find('div',
                    class_='price-label price-label--primary sku-price sku-price--primary sku-prices-block__price')
 price1 = re.sub('\D', '', prices.find('span', class_='price-label__integer').string)

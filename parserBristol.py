@@ -1,13 +1,9 @@
 import re
-from requests_html import HTMLSession
-from bs4 import BeautifulSoup
+
 from config import shop_bristol_url
+from parser import parse
 
-session = HTMLSession()
-response = session.get(shop_bristol_url)
-soup = BeautifulSoup(response.content, 'html.parser')
-
-# title = re.sub(" +", " ", soup.find('h1').string)
+soup = parse(shop_bristol_url)
 
 price = re.sub('\D', '', soup.find('span', class_='new').text)
 price2 = price[-2:]
