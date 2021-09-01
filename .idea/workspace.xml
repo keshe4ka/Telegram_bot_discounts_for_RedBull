@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d245ec35-b5ab-4878-96f9-a063ff87f68d" name="Default Changelist" comment="Чутка подрихтовал бота">
+    <list default="true" id="d245ec35-b5ab-4878-96f9-a063ff87f68d" name="Default Changelist" comment="Парсер перенесен в отдельную функцию">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parser5ka.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser5ka.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parserBristol.py" beforeDir="false" afterPath="$PROJECT_DIR$/parserBristol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parserKB.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parserLenta.py" beforeDir="false" afterPath="$PROJECT_DIR$/parserLenta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parserMagnit.py" beforeDir="false" afterPath="$PROJECT_DIR$/parserMagnit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630243196308</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Парсер перенесен в отдельную функцию">
+      <created>1630353343997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1630353343997</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +180,7 @@
     <MESSAGE value="Легкая полировка и добавление парсеров КБ и Магнита (магнит ждем пока что, на едадиле инфы нет)." />
     <MESSAGE value="Сделан парсер метро" />
     <MESSAGE value="Чутка подрихтовал бота" />
-    <option name="LAST_COMMIT_MESSAGE" value="Чутка подрихтовал бота" />
+    <MESSAGE value="Парсер перенесен в отдельную функцию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Парсер перенесен в отдельную функцию" />
   </component>
 </project>
